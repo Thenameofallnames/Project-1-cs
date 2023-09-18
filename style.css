@@ -1,0 +1,32 @@
+#Top_part{
+text-align: center;
+}
+body{
+background-color: slategray;
+}
+#Header{
+    text-align: center; 
+    text-decoration: underline;
+}
+#title{
+    font-size: 70px;
+}
+#tables{
+    align-items: center;
+}
+#songs{
+    text-align: right;
+    align-content: right;
+    display: table;
+    margin: 0 auto; 
+    /*Had to figure out how to use the margin command because align wouldn't do what I wanted it to*/
+    /*also aparently I need this diplay thing for it to work? 
+    I'm not gonna lie I have no idea why but my code it working now so I'm not gonna touch it*/
+}
+#Hobby_pic{
+    /*align-content: right;*/
+    align-items: right;
+        display: block;
+        margin-left: auto;/*again I still dont know what the display tag does but if I delete it the whole wesbite falls apart
+        I speant like an hour and half on this I'm not gonna touch it with a 40 foot pole now*/
+}
